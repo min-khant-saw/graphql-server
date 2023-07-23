@@ -6,6 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "dev": "nodemon index.ts",
+    "build-ts": "npx tsc",
     "ts": "tsc -w"
   },
   "keywords": [],
