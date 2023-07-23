@@ -6,7 +6,7 @@ const app: Express = express();
 
 serverStarted(app).then((_) => {
   app.listen(8000, () =>
-    console.log("Running On http://localhost:6000/graphql")
+    console.log("Running On http://localhost:8000/graphql")
   );
 });
 
