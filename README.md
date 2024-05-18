@@ -24,16 +24,14 @@ Once the server is running, navigate to `http://localhost:4000/graphql` in your 
 The project structure is as follows:
 
 graphql-server/
-│
-├── src/ # Source code
-│ ├── data/ # Sample data
-│ ├── resolvers/ # GraphQL resolvers
-│ ├── schema/ # GraphQL schema definitions
-│ ├── server.js # Express.js server setup
-│
-├── .gitignore # Git ignore file
-├── package.json # Node.js dependencies and scripts
-├── README.md # Project documentation
+├── src/                  # Source code
+│   ├── data/             # Sample data
+│   ├── resolvers/        # GraphQL resolvers
+│   ├── schema/           # GraphQL schema definitions
+│   └── server.js         # Express.js server setup
+├── .gitignore            # Git ignore file
+├── package.json          # Node.js dependencies and scripts
+└── README.md             # Project documentation
 
 ## Dependencies
 
