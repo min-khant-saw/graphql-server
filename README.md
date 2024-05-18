@@ -19,20 +19,6 @@ To get started with this GraphQL server, follow these steps:
 4. **Explore the API**: 
 Once the server is running, navigate to `http://localhost:4000/graphql` in your browser to access the GraphQL Playground. From there, you can interact with the API using GraphQL queries and mutations.
 
-## Project Structure
-
-The project structure is as follows:
-
-graphql-server/
-├── src/                  # Source code
-│   ├── data/             # Sample data
-│   ├── resolvers/        # GraphQL resolvers
-│   ├── schema/           # GraphQL schema definitions
-│   └── server.js         # Express.js server setup
-├── .gitignore            # Git ignore file
-├── package.json          # Node.js dependencies and scripts
-└── README.md             # Project documentation
-
 ## Dependencies
 
 - [Node.js](https://nodejs.org/)
